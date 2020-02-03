@@ -8,8 +8,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-      .header .row .col-sm-6{
+      *{
+          padding: 0px;
+          margin: 0px;
+      }
+      .header .row{
           background-color: red;
+      }
+      .header .row .col-md-6 .list-inline li a{
+          color:white;
+      }
+      .header .row .col-md-6 .list-inline{
+          margin-left: 20px;
+           margin-top: 10px;
+      }
+      .header .row .col-md-6 .list-inline li a{
+          margin-top: 10px;
+      }
+      .header .row .col-md-6 .text-right{
+          margin-top: 10px;
+          color: white;
+          margin-right: 20px;
       }
   </style>
 </head>
@@ -17,14 +36,14 @@
 
     <div class="header">
         <div class="row"> 
-            <div class="col-sm-6"> 
+            <div class="col-md-6"> 
                 <ul class="list-inline">
-                  <li>Home</li>
-                  <li>About</li>
-                  <li>Contact</li>
+                    <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            <div class="col-sm-6"> 
+            <div class="col-md-6"> 
                 <p class="text-right">mdkpcse@gmail.com</p>
             </div>
         </div>
